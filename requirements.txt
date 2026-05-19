@@ -4,4 +4,5 @@ aiohttp==3.11.18
 aiofiles==24.1.0
 tensorflow==2.18.0
 tensorflow-hub==0.16.1
+tf-keras==2.18.0
 pillow==11.2.1
