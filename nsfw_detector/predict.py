@@ -1,5 +1,7 @@
 import argparse
 import json
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 from os import listdir
 from os.path import isfile, join, exists, isdir, abspath
 
