@@ -1,7 +1,9 @@
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 from api import predict, app
 from api.functions import download_image
 from config import PORT
-import os
 import uvicorn
 
 model = predict.load_model('nsfw_detector/nsfw_model.h5')
